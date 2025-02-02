@@ -19,7 +19,8 @@ const nextConfig = {
     experimental: {
         webpackBuildWorker: true,
         parallelServerBuildTraces: true,
-        parallelServerCompiles: true
+        parallelServerCompiles: true,
+        appDir: true
     }
 };
 
